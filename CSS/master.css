@@ -1,0 +1,203 @@
+:root {
+    --c-active: #f51659;
+    --c-active-inner: #FFFFFF;
+    --c-default: #D2D6E9;
+    --c-default-dark: #C7CBDF;
+    --c-black: #1B1B22;
+    --transparent-color: rgb(15 116 143 / 70%);
+    --animate-duration: 1s;
+    --animate-delay: 0.9s;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* font-family: 'Caveat', cursive; */
+    background-image: url("lantern-lanterns-ornate-culture-light.jpg");
+    position: relative;
+    background-size: auto;
+    background-position: center bottom;
+    text-align: center;
+}
+
+h2 {
+    font-size: xxx-large;
+    color: #572b0c;
+    /* transition: var(--animate-delay); */
+}
+.container {
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    width: 90%;
+    padding: 40px;
+    transform: translate(-50%,-50%);
+}
+@media (max-width: 767px) {
+    .container {
+        display: block;
+        height: 110%;
+        top: 50%;
+        /* margin-top: 945px; */
+        padding: 40px 5px 0;
+    }
+
+}
+.flex {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 95px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+        gap: 60px;
+    }
+} 
+
+p {
+    font-weight: bold;
+    font-size: larger;
+    padding: 30px;
+    color: aliceblue;
+}
+@media (max-width: 767px) {
+    p {
+        font-size: xx-large;
+    }
+} 
+.circle {
+    position: relative;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 29%;
+    border-radius: 50%;
+    height: 90px;
+    width: 115px;
+}
+@media (max-width: 1070px) {
+    .circle {
+        left: 18%;
+    }
+} 
+@media (max-width: 888px) {
+    .circle {
+        left: 3%;
+    }
+} 
+@media (max-width: 767px) {
+    .circle {
+        left: 33%;
+    }
+} 
+@media (max-width: 560px) {
+    .circle {
+        left: 28%;
+    }
+} 
+@media (max-width: 460px) {
+    .circle {
+        left: 20%;
+    }
+} 
+@media (max-width: 395px) {
+    .circle {
+        left:  15%;
+    }
+} 
+#Value1 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+#Value2 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+#Value3 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+#Value4 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+#Value5 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+#Value6 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+#Value7 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+#Value8 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+#Value9 {
+    padding: 0.7em 1.7em;
+    font-size: 40px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .box {
+        width: 80%;
+        padding-bottom: 30px;
+    }
+} 
+button {
+    color: #090909;
+    padding: 1.2em 1.8em;
+    margin: 25px 0 0 0;
+    font-size: 20px;
+    border-radius: 1.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+}
+@media (max-width: 767px) {
+    button {
+        font-size: 26px;
+    }
+} 
