@@ -33,7 +33,7 @@ body {
     /* background-size: cover; */
     position: relative;
     background-size: auto;
-    background-position: center bottom;
+    /* background-position: center bottom;*/
     text-align: center;
 }
 
@@ -130,7 +130,12 @@ p {
 } 
 @media (max-width: 395px) {
     .circle {
-        left:  20%;
+        left:  21%;
+    }
+} 
+@media (max-width: 361px) {
+    .circle {
+        left:  15%;
     }
 } 
 #Value1 {
