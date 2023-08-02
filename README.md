@@ -1,0 +1,2 @@
+# CounterOfForgiveness
+ عداد الاستغفار
