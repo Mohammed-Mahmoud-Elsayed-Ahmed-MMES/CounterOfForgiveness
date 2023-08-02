@@ -30,6 +30,7 @@ html {
 body {
     /* font-family: 'Caveat', cursive; */
     background-image: url("lantern-lanterns-ornate-culture-light.jpg");
+    /* background-size: cover; */
     position: relative;
     background-size: auto;
     background-position: center bottom;
@@ -129,7 +130,7 @@ p {
 } 
 @media (max-width: 395px) {
     .circle {
-        left:  15%;
+        left:  20%;
     }
 } 
 #Value1 {
